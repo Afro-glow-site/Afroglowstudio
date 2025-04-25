@@ -1,0 +1,50 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff8f2;
+  color: #333;
+}
+
+header {
+  background-color: #2e1d18;
+  color: white;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+section {
+  padding: 30px 20px;
+}
+
+.promo {
+  background-color: #f7e0c5;
+  text-align: center;
+}
+
+.galeria .fotos {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.galeria img {
+  width: 250px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.contato a {
+  color: #bb6b3f;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer {
+  background-color: #2e1d18;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
